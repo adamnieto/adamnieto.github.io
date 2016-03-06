@@ -1,0 +1,120 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Derived Work from Andrea Galanti
+ * Thanks for MaterializeCSS.com
+ * Codyhouse.co
+ */
+
+main {
+  flex: 1 0 auto;
+}
+
+ html {
+     max-width: 100%;
+     overflow-x: hidden;
+ }
+
+ body {
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+ #white {
+   color: #ffffff;
+ }
+
+.default_color{background-color: #304ffe !important}
+
+.default_color_text{color: #304ffe !important}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+#intro{padding-top: 4rem;}
+
+#work{padding-top: 4rem;}
+
+#index-banner {
+	min-height: 632px;
+	max-height: 864px;
+	position: relative;
+	background-color: #304ffe;
+}
+
+#nav_f{
+	box-shadow: none !important;
+	-webkit-box-shadow:none !important;
+}
+
+#push {
+padding-bottom: 5%;
+}
+.text_h {
+	padding-top: 10%;
+	font-size: 7.0em;
+	font-weight: 100;
+	color:white;
+}
+.text_title {
+	padding-top: 3%;
+  padding-bottom: 3%;
+	font-size: 6.0em;
+	font-weight: 200;
+	color: #304ffe;
+}
+
+.text_sub {
+  margin-top: 0%;
+  padding-bottom: 4%;
+	font-size: 2.0em;
+	font-weight: 100;
+	color:white;
+}
+
+.brand-logo{
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+  font-style: normal;
+  font-weight: 100;
+  padding: 0;
+  letter-spacing: 7px;
+}
+
+.text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
+
+.span_h2 {font-weight: 300;color: #ee6e73;}
+
+.text_b{color: #ee6e73;}
+
+.in{font-weight: 400 !important; font-style: normal !important;}
+
+.card-content a {color: #304ffe;}
+
+.card-content a:hover {color: #304ffe;}
+
+nav ul a {
+  font-size: 1.2rem;
+  color: #FFF;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: 300;
+  padding: 0px 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .text_h {
+  padding: 4% 0;
+  font-size: 5em;
+  font-weight: 100;
+  color: white;
+  }
+}
