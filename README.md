@@ -1,7 +1,7 @@
 # adamnieto.github.io
 
 * This website acts as a portfolio for Adam Nieto.
-* This website theme is inspired from and partially derived from Andrea Galanti's Material Theme Free Download
+* This website theme is inspired and partially derived from Andrea Galanti's Material Theme Free Download
 
 ## Usage/Credits
 
