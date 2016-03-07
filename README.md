@@ -1,15 +1,10 @@
-# adamnieto.me
 # adamnieto.github.io
-
-This website acts as a portfolio for Adam Nieto.
-This portfolio is derived from Andrea Galanti Material Theme
-
 ----
-Uses MaterializeCSS (The MIT License (MIT))
-Uses Semantic UI Icon.css (The MIT License (MIT))
+* This website acts as a portfolio for Adam Nieto.
+* This website theme is inspired and partially derived from Andrea Galanti's Material Theme Free Download
 
-Credits:
-	Icons:
-		Semantic UI Icon CSS
-	Other
-		jQuery (jquery.com)
+## Usage/Credits
+----
+* MaterializeCSS (The MIT License (MIT))
+* Semantic UI --> Icon.css (The MIT License (MIT))
+* jQuery (jquery.com)
