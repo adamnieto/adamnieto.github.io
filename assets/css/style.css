@@ -119,12 +119,12 @@ nav ul a {
 @media only screen and (max-width: 480px) {
   .text_h {
   padding: 4% 0;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 100;
   color: white;
   }
   .text_sub {
-    font-size: 2em;
+    font-size: 1em;
   }
   .brand-logo {
     padding: 10px;
