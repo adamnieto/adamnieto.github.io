@@ -56,16 +56,15 @@
         <div id="stand" class="col s12 center">
           <a href="assets/resume/Adam_Nieto.pdf"><i id="white" class="massive link file text outline icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Resume"></i></a>
 
-          <a href="http://www.adamnieto.mycollege.webfolio.com"><i class="inverted massive link student icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="High School Portfolio"></i></a>
+          <a href="http://www.adamnieto.mycollege.webfolio.com"><i id="socialone" class="inverted massive link student icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="High School Portfolio"></i></a>
 
-          <a href="http://www.github.com/adamnieto"><i class="inverted massive link github icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Github"></i></a>
+          <a href="http://www.github.com/adamnieto"><i id="socialtwo" class="inverted massive link github icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Github"></i></a>
 
-          <a href="#contact"><i id="white" class="massive link mail outline icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Contact"></i></a>
+          <a href="#contact"><i id="social_white" class="massive link mail outline icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Contact"></i></a>
         </div>
       </div>
     </div>
   </div>
-
 
 <div class="section scrollspy" id="projects">
 <h2 class="center header text_title">Projects</h2>
@@ -146,8 +145,13 @@ if ($(window).width() < 480) {
       edge: 'left', // Choose the horizontal origin
       closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
     });
-  $('i').removeClass('massive').addClass('huge');
-};
+  if ($('i').hasClass('massive')) {
+    $('#socialone').removeClass('massive').addClass('huge');
+    $('#socialtwo').removeClass('massive').addClass('huge');
+    $('#social_white').removeClass('massive').addClass('huge');
+    $('#white').removeClass('massive').addClass('huge');
+  }
+}
 </script>
 
 </html>

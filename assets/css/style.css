@@ -25,10 +25,13 @@ main {
     flex-direction: column;
   }
 
- #white {
-   color: #ffffff;
+#white {
+  color: #ffffff;
  }
 
+#social_white {
+   color: #ffffff;
+  }
 .default_color{background-color: #304ffe !important}
 
 .default_color_text{color: #304ffe !important}
@@ -118,7 +121,9 @@ nav ul a {
 
 @media only screen and (max-width: 480px) {
   .text_h {
-  padding: 4% 0;
+  position: relative;
+  left: 0px;
+  padding: 2% 0;
   font-size: 4em;
   font-weight: 100;
   color: white;
@@ -126,9 +131,19 @@ nav ul a {
   .text_sub {
     font-size: 1em;
   }
+  .inverted {
+    position: relative;
+    left: 0px;
+  }
   .brand-logo {
     padding: 10px;
     display: none;
     visibility: hidden;
+  }
+  #index-banner {
+  	min-height: 332px;
+  	max-height: 464px;
+  	position: relative;
+  	background-color: #304ffe;
   }
 }
