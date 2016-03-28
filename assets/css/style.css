@@ -32,9 +32,10 @@ main {
 #social_white {
    color: #ffffff;
   }
-.default_color{background-color: #304ffe !important}
+.default_color{background-color: #2962FF !important}
 
-.default_color_text{color: #304ffe !important}
+/*#2962FF*/
+.default_color_text{color:  !important}
 
 .icon-block {
   padding: 0 15px;
@@ -48,7 +49,7 @@ main {
 	min-height: 632px;
 	max-height: 864px;
 	position: relative;
-	background-color: #304ffe;
+	background-color: #2962FF;
 }
 
 #nav_f{
@@ -71,7 +72,7 @@ padding-bottom: 5%;
   padding-bottom: 3%;
 	font-size: 6.0em;
 	font-weight: 200;
-	color: #304ffe;
+	color: #2962FF;
 }
 .level {
   max-height: 300px;
@@ -106,9 +107,9 @@ padding-bottom: 5%;
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
-.card-content a {color: #304ffe;}
+.card-content a {color: #2962FF;}
 
-.card-content a:hover {color: #304ffe;}
+.card-content a:hover {color: #2962FF;}
 
 nav ul a {
   font-size: 1.2rem;
@@ -147,6 +148,6 @@ nav ul a {
   	min-height: 332px;
   	max-height: 464px;
   	position: relative;
-  	background-color: #304ffe;
+  	background-color: #2962FF;
   }
 }
