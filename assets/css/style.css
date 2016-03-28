@@ -127,13 +127,12 @@ nav ul a {
   font-weight: 100;
   color: white;
   margin: 0;
-  padding-bottom: 3px;
+  padding-bottom: 2px;
   }
   .text_sub {
     font-size: 1.5em;
     font-weight: 50;
     color: white;
-
   }
   .inverted {
     position: relative;
