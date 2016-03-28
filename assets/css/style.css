@@ -123,12 +123,17 @@ nav ul a {
   .text_h {
   position: relative;
   left: 0px;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 100;
   color: white;
+  margin: 0;
+  padding-bottom: 3px;
   }
   .text_sub {
-    font-size: 1em;
+    font-size: 1.5em;
+    font-weight: 50;
+    color: white;
+
   }
   .inverted {
     position: relative;
