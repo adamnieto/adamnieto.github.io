@@ -1,6 +1,4 @@
 # Portfolio :books:
-
-* This website acts as a portfolio for Adam Nieto.
 * This website theme is inspired by Andrea Galanti's Material Theme Free Download
 
 ## Usage/Credits
