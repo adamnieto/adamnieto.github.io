@@ -208,6 +208,9 @@ i {
 *********************************************************/
 
 @media(max-width: 425px) {
+    .big-icon {
+      font-size: 50px;
+    }
   .button.button--large {
     padding: 30px 35px;
   }
@@ -242,6 +245,10 @@ i {
 }
 
 @media(max-width: 375px) {
+  .big-icon {
+    font-size: 50px;
+
+  }
   .button.button--large {
     padding: 20px 25px;
   }
@@ -273,6 +280,9 @@ i {
 }
 
 @media(max-width: 320px) {
+    .big-icon {
+      font-size: 50px;
+    }
     h1 {
         padding-top: 50px;
         margin-top: 50px ;
@@ -289,12 +299,7 @@ i {
   .button.button--large {
     padding: 17px 22px;
   }
-
   hr {
     margin: 56px auto 41px;
-  }
-
-  .donations .buttons .button {
-    margin-right: 0;
   }
 }
