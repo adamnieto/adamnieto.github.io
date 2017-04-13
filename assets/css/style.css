@@ -1,153 +1,300 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Derived Work from Andrea Galanti
- * Thanks for MaterializeCSS.com
- * Codyhouse.co
- */
+/*********************************************************
+  RESET
+*********************************************************/
 
-main {
-  flex: 1 0 auto;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-}
-
- html {
-    max-width: 100%;
-    overflow-x: hidden;
- }
-
- body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-#white {
-  color: #ffffff;
- }
-
-#social_white {
-   color: #ffffff;
-  }
-.default_color{background-color: #2962FF !important}
-
-/*#2962FF*/
-.default_color_text{color:  !important}
-
-.icon-block {
-  padding: 0 15px;
-}
-
-#intro{padding-top: 4rem;}
-
-#work{padding-top: 4rem;}
-
-#index-banner {
-	min-height: 632px;
-	max-height: 864px;
-	position: relative;
-	background-color: #2962FF;
-}
-
-#nav_f{
-	box-shadow: none !important;
-	-webkit-box-shadow:none !important;
-}
-
-#push {
-padding-bottom: 5%;
-}
-
-.text_h {
-	padding-top: 10%;
-	font-size: 7.0em;
-	font-weight: 100;
-	color:white;
-}
-.text_title {
-	padding-top: 3%;
-  padding-bottom: 3%;
-	font-size: 6.0em;
-	font-weight: 200;
-	color: #2962FF;
-}
-.level {
-  max-height: 300px;
-  max-width: automatic;
-
-
-}
-.text_sub {
-  margin-top: 0%;
-  padding-bottom: 4%;
-	font-size: 2.0em;
-	font-weight: 100;
-	color:white;
-}
-
-.brand-logo{
-  position: absolute;
-  color: #fff;
-  display: inline-block;
-  font-size: 2.1rem;
-  font-style: normal;
-  font-weight: 200;
-  padding: 0;
-  letter-spacing: 1px;
-}
-
-.text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
-
-.span_h2 {font-weight: 300;color: #ee6e73;}
-
-.text_b{color: #ee6e73;}
-
-.in{font-weight: 400 !important; font-style: normal !important;}
-
-.card-content a {color: #2962FF;}
-
-.card-content a:hover {color: #2962FF;}
-
-nav ul a {
-  font-size: 1.2rem;
-  color: #FFF;
-  letter-spacing: 2px;
-  display: block;
-  font-weight: 300;
-  padding: 0px 15px;
-}
-
-@media only screen and (max-width: 480px) {
-  .text_h {
-  position: relative;
-  left: 0px;
-  font-size: 3em;
-  font-weight: 100;
-  color: white;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
-  padding-bottom: 2px;
-  }
-  .text_sub {
-    font-size: 1.5em;
-    font-weight: 50;
-    color: white;
-  }
-  .inverted {
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*********************************************************
+  MAIN
+*********************************************************/
+html, body {
+    /*height: 100%;*/
+    /*makes scroll bar disapear*/
+}
+body {
+     font-family: 'Lato', sans-serif !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    line-height: 1.6 !important;
+    background-color: #000 !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+h1 {
+    padding-top: 50px;
+    margin-top: 150px ;
+    margin-bottom: 25px;
+    font-size: 80px;
+    font-weight: 300;
+}
+h2 {
+    margin-bottom: 62px;
+    font-size: 22px;
+}
+h3 {
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: .6;
+    font-weight: 300;
+}
+em {
+    font-style: italic;
+}
+strong {
+    font-weight: 900;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+hr {
+    width: 20px;
+    height: 1px;
+    margin: 96px auto 81px;
+    background-color: #2A2F34;
+    border: none;
+}
+i {
+    padding-top: 50px;
+    padding-right: 30px;
+}
+.big-icon {
+    font-size: 100px;
+}
+.container {
     position: relative;
-    left: 0px;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+}
+.container.container--large {
+    max-width: 525px;
+}
+.container.container--large p {
+    max-width: 377px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.9;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #2A2F34;
+    border-radius: 5px;
+}
+
+/*********************************************************
+  HEADER
+*********************************************************/
+.header .header__meta {
+    position: absolute;
+    top: 40px;
+    right: 66px;
+    font-size: 14px;
+    z-index: 10;
+}
+.header .header__meta li {
+    display: inline-block;
+}
+.header .header__meta li:after {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 10px;
+    margin: 0 13px 0 17px;
+    background-color: #fff;
+    opacity: 0.46;
+}
+.header .header__meta li:last-of-type:after {
+    display: none;
+    visibility: hidden;
+}
+.header .header__meta strong {
+    font-size: 13px;
+    font-weight: bold;
+}
+.header .container {
+    z-index: 10;
+}
+.header .header__introduction {
+    padding-top: 60%;
+}
+.header .header__introduction p {
+    opacity: 0.9;
+}
+.header .header__introduction .buttons {
+    margin-top: 61px;
+}
+.header .header__introduction .buttons .button:first-of-type {
+    margin-right: 42px;
+}
+.header .header__scroll {
+    position: absolute;
+    width: 110px;
+    right: 0;
+    left: 0;
+    bottom: 29px;
+    margin: auto;
+    text-align: center;
+    z-index: 10;
+}
+.header .header__background {
+    position: absolute;
+    display: block;
+    background: url('bg.jpg') bottom no-repeat transparent;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: .6;
+}
+
+/*********************************************************
+  SCROLL
+*********************************************************/
+.scroll__text {
+    opacity: 0.9;
+}
+
+/*********************************************************
+  RESPONSIVE
+*********************************************************/
+
+@media(max-width: 425px) {
+  .button.button--large {
+    padding: 30px 35px;
   }
-  .brand-logo {
-    padding: 10px;
+  h1 {
+      padding-top: 50px;
+      margin-top: 50px ;
+      margin-bottom: auto;
+      font-size: 60px;
+      font-weight: 300;
+  }
+  h3 {
+      margin: 10px 0;
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 300;
+  }
+  hr {
+    margin: 76px auto 61px;
+  }
+
+  .editor {
+    overflow-x: scroll;
+  }
+
+  .header .header__meta {
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+}
+
+@media(max-width: 375px) {
+  .button.button--large {
+    padding: 20px 25px;
+  }
+  i {
+      padding-top: 50px;
+      padding-right: 30px;
+  }
+  h1 {
+      padding-top: 40px;
+      margin-top: 50px ;
+      margin-bottom: auto;
+      font-size: 60px;
+      font-weight: 300;
+  }
+  h3 {
+      margin: 10px 0;
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 300;
+  }
+  .header .header__introduction .buttons .button:first-of-type {
+    margin-right: 0;
+  }
+
+  .header .header__scroll {
     display: none;
     visibility: hidden;
   }
-  #index-banner {
-  	min-height: 332px;
-  	max-height: 464px;
-  	position: relative;
-  	background-color: #2962FF;
+}
+
+@media(max-width: 320px) {
+    h1 {
+        padding-top: 50px;
+        margin-top: 50px ;
+        margin-bottom: auto;
+        font-size: 50px;
+        font-weight: 300;
+    }
+    h3 {
+        margin: 10px 0;
+        font-size: 30px;
+        line-height: 1;
+        font-weight: 300;
+    }
+  .button.button--large {
+    padding: 17px 22px;
   }
+
+  hr {
+    margin: 56px auto 41px;
+  }
+
+  .donations .buttons .button {
+    margin-right: 0;
+  }
+}
