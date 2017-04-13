@@ -271,7 +271,6 @@ i {
   .header .header__introduction .buttons .button:first-of-type {
     margin-right: 0;
   }
-
   .header .header__scroll {
     display: none;
     visibility: hidden;
