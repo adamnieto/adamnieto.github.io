@@ -1,0 +1,3 @@
+[submodule "themes/hugoline"]
+	path = themes/hugoline
+	url = https://github.com/adamnieto/hugoline.git

@@ -1,0 +1,33 @@
+baseURL = 'https://adamnieto.com'
+languageCode = 'en-us'
+title = 'Adam Nieto'
+copyright = "© 2024, Adam Nieto"
+theme = 'hugoline'
+
+[params]
+  name = "Adam Nieto"
+  email = "adam.s.nieto@gmail.com"
+  tagline = "a software engineer, product developer, and leader who creates elegant solutions for complex problems."
+  description = "A new theme for Hugo, build with Tailwindcss and Preline UI."
+
+  github_user = "adamnieto"
+  github_repo = "https://github.com/adamnieto/hugoline"
+  github_banner = true
+  favicon = "favicon.ico"
+
+  linkedin_url = "https://www.linkedin.com/in/adam-nieto/"
+  github_url = "https://github.com/adamnieto"
+
+  logo = "/logo.png"    
+  profile_logo = "/profile.jpg"
+
+  [[param.meta]]
+    favicon = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = 'catppuccin-latte'  
+    lineNos = true
+    lineNumbersInTable = false
+
