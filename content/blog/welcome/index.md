@@ -9,15 +9,18 @@ tags: ["welcome", "portfolio", "before-vs-after"]
 
 Welcome to my portfolio! I felt it was time to give my portfolio a little bit of a makeover. Take a look at the comparison photos below to see the old versus new design.
 
+####
 
+[![before-vs-after](./cover.png)](./cover.png)
 
-![before-vs-after](./cover.png)
+####
 
 ## Before
 
-![before](./before.png)
+[![before](./before.png)](./before.png)
 
+####
 
 ## After
 
-![after](./after.png)
+[![after](./after.png)](./after.png)
