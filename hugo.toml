@@ -1,7 +1,7 @@
 baseURL = 'https://adamnieto.com'
 languageCode = 'en-us'
 title = 'Adam Nieto'
-copyright = 'Copyright &copy; {{ dateFormat "2006" now }} Adam Nieto.'
+copyrightAuthor = 'Adam Nieto'
 theme = 'hugoline'
 
 [params]
