@@ -18,6 +18,8 @@ theme = 'hugoline'
   linkedin_url = "https://www.linkedin.com/in/adam-nieto/"
   github_url = "https://github.com/adamnieto"
 
+  copyrightAuthor = "Adam Nieto"
+
   logo = "/logo.png"    
   profile_logo = "/profile.jpg"
 
